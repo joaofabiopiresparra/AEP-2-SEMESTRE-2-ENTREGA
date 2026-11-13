@@ -109,4 +109,4 @@ O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os 
 
 ## Vídeo de apresentação
 
-[inserir link do vídeo]
+https://youtu.be/_3PH7eL90HA?si=-bFM6IDHf5GKK5AQ
