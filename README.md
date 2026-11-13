@@ -7,6 +7,11 @@ Curso:
 
 ## Integrantes
 
+Arthur da Silva Mota – RA 26002999-2 
+
+João Fábio Pires Parra – RA 26006728-2 
+
+Lucas Masaki Sversuti – RA 26002032-2 
 
 
 ## Descrição do projeto
