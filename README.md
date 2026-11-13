@@ -78,12 +78,10 @@ gcc -o pse_em_acao src/main.c
 
 **No Windowns:**
 
-```bash
 .\pse_em_acao.exe
 
 **No Linux ou macOS:**
 
-```bash
 ./pse_em_acao
 
 Após iniciar o programa, o usuário poderá acessar as funcionalidades pelo menu.
