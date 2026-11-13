@@ -78,6 +78,13 @@ gcc -o pse_em_acao src/main.c
 
 O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os textos do programa não usam acentos para evitar problemas de exibição no terminal do Windows.
 
+## Limitações conhecidas
+
+- Os dados ficam apenas em memória: ao encerrar o programa, as ações cadastradas são perdidas;
+- Capacidade máxima de 100 ações por execução;
+- A busca por escola e tema diferencia maiúsculas de minúsculas;
+- Depois de cadastrada, a ação só pode ter a situação alterada (não há edição de outros campos nem exclusão).
+
 ## Vídeo de apresentação
 
 [inserir link do vídeo]
