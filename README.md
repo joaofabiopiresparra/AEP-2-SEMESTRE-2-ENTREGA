@@ -65,27 +65,38 @@ Validações e tratamentos de erro implementados:
 - Código duplicado, campos obrigatórios vazios, quantidades negativas ou não numéricas, data fora do formato DD/MM/AAAA e opções inexistentes no menu;
 - Registro inexistente (ao pesquisar ou atualizar) e limite de armazenamento atingido (50 ações).
 
+
 ## Como compilar e executar
 
-**Dev-C++:** abra o arquivo `src/main.c` e aperte **F11** (Compilar e Executar).
+### Pelo Dev-C++
 
-**gcc (terminal):**
+1. Abra o arquivo `src/main.c`.
+2. Pressione **F11** para compilar e executar.
+3. O menu principal será exibido no terminal.
+
+### Pelo terminal (GCC)
+
+**1. Compile o programa:**
 
 ```bash
-## Pelo terminal, utilizando GCC:
-
 gcc -o pse_em_acao src/main.c
-
-## No Windows:
-
-.\pse_em_acao.exe
-
-## No Linux ou macOS:
-
-./pse_em_acao
-
-Após iniciar o programa, o usuário poderá acessar as funcionalidades pelo menu.
 ```
+
+**2. Execute o programa:**
+
+No Windows:
+
+```powershell
+.\pse_em_acao.exe
+```
+
+No Linux ou macOS:
+
+```bash
+./pse_em_acao
+```
+
+Após iniciar o programa, escolha uma das opções do menu principal.
 
 O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os textos do programa não usam acentos para evitar problemas de exibição no terminal do Windows.
 
