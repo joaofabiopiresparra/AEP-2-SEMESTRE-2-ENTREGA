@@ -1,6 +1,6 @@
 # PSE em Ação — Sistema de Apoio à Vacinação Escolar
 
-Sistema em linguagem C, executado em terminal, para apoiar o planejamento, registro e acompanhamento de ações de vacinação escolar realizadas no âmbito do **Programa Saúde na Escola (PSE)**.
+Sistema em linguagem C, executado em terminal, para apoiar o planejamento, registro e acompanhamento de ações escolares realizadas no âmbito do **Programa Saúde na Escola (PSE)**.
 
 Atividade Extensionista Prática (AEP) — 2º Semestre de 2026
 Curso: 
@@ -16,11 +16,11 @@ Lucas Masaki Sversuti – RA 26002032-2
 
 ## Descrição do projeto
 
-O Programa Saúde na Escola (PSE) inclui, entre suas ações prioritárias, a verificação da situação vacinal de estudantes da rede pública. Apesar dos avanços recentes na integração entre saúde e educação, a execução dessas ações ainda enfrenta desafios de comunicação, planejamento e acompanhamento, muitas vezes registradas em anotações e planilhas dispersas.
+O Programa Saúde na Escola (PSE) inclui, entre suas ações prioritárias, a verificação da situação de ações. Apesar dos avanços recentes na integração entre saúde e educação, a execução dessas ações ainda enfrenta desafios de comunicação, planejamento e acompanhamento, muitas vezes registradas em anotações e planilhas dispersas.
 
 Este projeto propõe uma aplicação simples em C, executada em terminal, capaz de:
 
-- Cadastrar ações de vacinação (código, escola, tema, data prevista, público-alvo, responsável, quantidade prevista);
+- Cadastrar ações (código, escola, tema, data prevista, público-alvo, responsável, quantidade prevista);
 - Listar e pesquisar ações por código, escola ou tema;
 - Atualizar a situação de uma ação (planejada, realizada ou cancelada) e registrar a quantidade efetiva de participantes;
 - Gerar um resumo geral com quantidade de ações por situação e percentual de participação.
@@ -31,7 +31,7 @@ O sistema **não coleta nem armazena dados clínicos individuais** de estudantes
 
 | Código | Descrição |
 |---|---|
-| RF01 | Cadastro de ação de vacinação |
+| RF01 | Cadastro de ação |
 | RF02 | Listagem de todas as ações cadastradas |
 | RF03 | Pesquisa de ações por código, escola ou tema |
 | RF04 | Atualização da situação da ação e registro de participantes efetivos |
@@ -52,7 +52,7 @@ Menu principal, que se repete até o usuário escolher encerrar:
 
 | Opção | Funcionalidade |
 |---|---|
-| 1 | Cadastrar ação de vacinação |
+| 1 | Cadastrar ação |
 | 2 | Listar ações |
 | 3 | Pesquisar ação (código, escola ou tema) |
 | 4 | Atualizar situação da ação |
@@ -77,23 +77,6 @@ gcc -o pse_em_acao src/main.c
 ```
 
 O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os textos do programa não usam acentos para evitar problemas de exibição no terminal do Windows.
-
-## Organização das pastas
-
-```
-.
-├── README.md
-├── docs/
-│   ├── AEP_Etapa1_PSE_Vacinacao.pdf              # Documento escrito da Etapa 1 (formatação ABNT)
-│   ├── AEP_Etapa2_PSE_Vacinacao.pdf              # Documento final escrito da Etapa 2 (formatação ABNT)
-│   ├── requisitos/                                # Requisitos funcionais e não funcionais
-│   ├── diagramas/                                 # Fluxogramas (menu principal e cadastro de ação) e diagrama de casos de uso
-│   └── pseudocodigo/                              # Pseudocódigos do menu principal e do cadastro
-├── src/                                            # Código-fonte em C (Etapa 2)
-│   └── main.c
-└── manual/                                         # Manual do usuário e capturas de tela (Etapa 2)
-```
-
 
 ## Vídeo de apresentação
 
