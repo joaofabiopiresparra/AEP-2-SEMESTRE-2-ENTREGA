@@ -72,15 +72,15 @@ Validações e tratamentos de erro implementados:
 **gcc (terminal):**
 
 ```bash
-Pelo terminal, utilizando GCC:
+## Pelo terminal, utilizando GCC:
 
 gcc -o pse_em_acao src/main.c
 
-**No Windowns:**
+## No Windows:
 
 .\pse_em_acao.exe
 
-**No Linux ou macOS:**
+## No Linux ou macOS:
 
 ./pse_em_acao
 
