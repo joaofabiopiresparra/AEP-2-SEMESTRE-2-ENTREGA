@@ -89,18 +89,6 @@ O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os 
 └── manual/                                         # Manual do usuário e capturas de tela (Etapa 2)
 ```
 
-## Etapas e planejamento de sprints
-
-**Etapa 1 — Documento escrito (semanas 1 a 6):** contextualização, problema de pesquisa, objetivos, justificativa, requisitos, fluxogramas, pseudocódigos, planejamento de sprints e criação/organização do repositório GitHub.
-
-**Etapa 2 — Implementação e apresentação (semanas 7 a 15):** implementação em C de todas as funcionalidades (cadastro, listagem, pesquisa, atualização e resumo), testes, diagrama de casos de uso, manual do usuário e apresentação em vídeo.
-
-## Limitações conhecidas
-
-- Os dados ficam apenas em memória: ao encerrar o programa, as ações cadastradas são perdidas;
-- Capacidade máxima de 50 ações por execução;
-- A busca por escola e tema diferencia maiúsculas de minúsculas;
-- Depois de cadastrada, a ação só pode ter a situação alterada (não há edição de outros campos nem exclusão).
 
 ## Vídeo de apresentação
 
