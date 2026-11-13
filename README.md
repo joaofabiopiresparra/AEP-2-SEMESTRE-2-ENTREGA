@@ -72,8 +72,19 @@ Validações e tratamentos de erro implementados:
 **gcc (terminal):**
 
 ```bash
+Pelo terminal, utilizando GCC:
+
 gcc -o pse_em_acao src/main.c
-./pse_em_acao        # no Windows: pse_em_acao.exe
+
+No Windows:
+
+.\pse_em_acao.exe
+
+No Linux ou macOS:
+
+./pse_em_acao
+
+Após iniciar o programa, o usuário poderá acessar as funcionalidades pelo menu.
 ```
 
 O código é escrito em C simples (padrão C89), sem bibliotecas externas, e os textos do programa não usam acentos para evitar problemas de exibição no terminal do Windows.
